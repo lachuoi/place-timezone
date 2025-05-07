@@ -1,0 +1,11 @@
+target/
+.spin/
+*.wasm
+runtime-config.prod.toml
+runtime-config.dev.toml
+.env
+*.mmdb
+*.wasm
+*.nogit
+*.secret
+*.secrets
