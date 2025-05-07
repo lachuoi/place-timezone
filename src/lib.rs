@@ -1,9 +1,8 @@
 use anyhow::Result;
 use spin_sdk::{
-    http::{IntoResponse, Params, Request, Response, Router},
+    http::{IntoResponse, Request, Response},
     http_component,
 };
-use std::env;
 
 /// A simple Spin HTTP component.
 #[http_component]
